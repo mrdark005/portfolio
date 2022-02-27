@@ -34,7 +34,7 @@ const Header = function() {
                         Projects
                     </a>
                     <a
-                        href=""
+                        href="https://www.buymeacoffee.com/MrDark"
                         className="bg-purple-600 text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-purple-800 transition duration-300">
                         Donate
                     </a>
@@ -55,7 +55,7 @@ const Header = function() {
              Projects
             </a>
                 <a
-                        href=""
+                        href="https://www.buymeacoffee.com/MrDark"
                         className=" cursor-pointer  bg-purple-600 text-white block px-3 py-2 hover:bg-purple-800 rounded-md text-base font-medium transition duration-300">
                         Donate
                     </a>
