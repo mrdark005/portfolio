@@ -9,7 +9,7 @@ const Header = function() {
         setMenu(!menu)
     }
     return (
-    <nav className="bg-primary shadow-lg">
+    <nav className="bg-primary shadow-lg border-t-4 border-blue-500 ">
         <div className="max-w-6xl mx-auto px-4">
             <div className="flex justify-between">
                 <div className="flex space-x-7">
