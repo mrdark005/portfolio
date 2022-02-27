@@ -7,7 +7,7 @@ import Projects from "../components/Projects"
 import SkeletonProjects from "../components/SkeletonProjects"
 import useSWR from 'swr'
 const fetcher = (url) => fetch(url).then(r => r.json())
-import head from "next/head"
+import Head from "next/head"
 
 export default function Component() {
 	const [user, setUser] = useState(undefined)
