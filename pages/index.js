@@ -33,7 +33,7 @@ export default function Component() {
       <Head>
         <title>MrDark.tk</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-	<link rel="icon" href={profile.avatar}
+	<link rel="icon" href={profile.avatar}/>
       </Head>
     <Header/>
 	<div className="container mx-auto pr-6 pl-6  md:pr-24 md:pl-24 pt-6 pb-6 mt-6">
