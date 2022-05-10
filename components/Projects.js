@@ -7,7 +7,7 @@ function SkeletonProjects({projects}) {
     return (
 	<>
               <h1 className='text-4xl font-bold text-center mb-8'>Projects:</h1>
-            <div className='grid grid-cols sm:grid-cols-2 gap-8'>
+            <div id="repos" className='grid grid-cols sm:grid-cols-2 gap-8'>
             {
             projects.map((item, index) => (
                 <div className='cursor-pointer bg-primary p-4 border-l-4 border-blue-500 mb-0 rounded-md' data-aos="fade" key={index}  onClick={() => router.push(item.html_url)}>
