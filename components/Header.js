@@ -24,7 +24,7 @@ const Header = function() {
                 </div>
                 <div className="hidden md:flex items-center space-x-1">
                     <a
-                        href=""
+                        href="#repos"
                         className="py-4 px-2 text-blue-500 font-semibold ">
                         Home
                     </a>
@@ -50,7 +50,7 @@ const Header = function() {
 		 <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 md:hidden"> 
     <a href="" className=" cursor-pointer text-white text-blue-500 block px-3 py-2 hover:text-blue-500 rounded-md text-base font-medium transition duration-300 ">Home </a>
             <a 
-             href=""
+             href="#repos"
              className=" cursor-pointer  text-white block px-3 py-2 hover:text-blue-500 rounded-md text-base font-medium transition duration-300">
              Projects
             </a>
