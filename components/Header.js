@@ -24,12 +24,12 @@ const Header = function() {
                 </div>
                 <div className="hidden md:flex items-center space-x-1">
                     <a
-                        href="#repos"
+                        href="/"
                         className="py-4 px-2 text-blue-500 font-semibold ">
                         Home
                     </a>
                     <a
-                        href=""
+                        href="#repos"
                         className="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">
                         Projects
                     </a>
