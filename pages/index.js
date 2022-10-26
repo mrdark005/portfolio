@@ -14,7 +14,7 @@ export default function Component() {
     const [projects,setProjects] = useState(undefined)
 	
 	const profile = {
-		avatar:"https://cdn.discordapp.com/avatars/699203703164633120/2f34ca5ca47fc1e257cc77e7ef97f02d.png",
+		avatar:"https://media.discordapp.net/attachments/823154095849603082/1034798302853603378/2f34ca5ca47fc1e257cc77e7ef97f02d.webp",
 		username: "! MrDark#9245",
 		description:"Hello 👋, I am a student in Kazakhstan. I'm 17 years old now and I have some small projects. I spend most of my time learning software."
 	}
