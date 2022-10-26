@@ -15,7 +15,7 @@ const Header = function() {
                 <div className="flex space-x-7">
                     <div>
                         <a href="#" className="flex items-center py-4 px-2">
-                            <img src="https://cdn.discordapp.com/avatars/699203703164633120/2f34ca5ca47fc1e257cc77e7ef97f02d.png" alt="Logo" className="rounded-full h-8 w-8 mr-2" />
+                            <img src="https://media.discordapp.net/attachments/823154095849603082/1034798302853603378/2f34ca5ca47fc1e257cc77e7ef97f02d.webp" alt="Logo" className="rounded-full h-8 w-8 mr-2" />
                             <span className="font-semibold text-gray-500 text-lg">
                              MrDark
                             </span>
