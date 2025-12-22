@@ -19,17 +19,6 @@ function Profile({ profile }) {
           <p className="opacity-75 mx-auto sm:mx-0 text-center sm:text-left sm:w-3/4 break-all">
             {profile.description}
           </p>
-          <div className="mt-4 flex justify-center sm:justify-start">
-            <iframe
-              src="https://beta.nowplaying.site/FhFOcaXI4MMmkPiM"
-              width="300"
-              height="120"
-              loading="lazy"
-              frameBorder="0"
-              scrolling="no"
-              className="rounded-xl"
-            />
-          </div>
         </span>
       </div>
     </div>
