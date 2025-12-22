@@ -14,9 +14,9 @@ export default function Component() {
     const [projects,setProjects] = useState(undefined)
 	
 	const profile = {
-		avatar:"https://media.discordapp.net/attachments/823154095849603082/1034798302853603378/2f34ca5ca47fc1e257cc77e7ef97f02d.webp",
+		avatar:"https://yt3.googleusercontent.com/UsFQQceFJ256oqHPy-b3hBj9WKsyynDlfEYK4SUAUl1ExR6uE_kRL-8SYDQapwd64GnVBaot5w=s900-c-k-c0x00ffffff-no-rj",
 		username: "! MrDark#9245",
-		description:"Hello 👋, I am a student in Kazakhstan. I'm 17 years old now and I have some small projects. I spend most of my time learning software."
+		description:"Hello 👋, I am a live in Kazakhstan. I'm 20 years old now and I have some small projects. I spend most of my time learning software."
 	}
 	
 	 const {data:repos,error:errorProjects} = useSWR(' https://api.github.com/users/mrdark005/repos ',fetcher,{refreshInterval:5000})
