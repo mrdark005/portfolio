@@ -3,18 +3,25 @@ import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 function SkeletonProfile() {
     return (
         <SkeletonTheme
-          baseColor="#282f4c"
-          highlightColor="#6063ff"
-          data-aos="fade"
+            baseColor="#1e293b"
+            highlightColor="#475569"
+            data-aos="fade"
         >
-            <div className="flex-auto sm:gap-4 sm:flex">
-         <p className="text-center sm:text-left"><Skeleton width={200} height={200} className="sm:mr-8 mb-3"/></p>
-         <span>
-         <h1 className="text-center sm:text-left"><Skeleton width={250} height={30}></Skeleton></h1>
-         <br/>
-         <p className="text-center sm:text-left"><Skeleton width={500} height={60}></Skeleton></p>
-         </span>
-         </div>
+            <div className="relative flex flex-col sm:flex-row items-center sm:items-start gap-8 bg-secondary/30 backdrop-blur-md border border-white/10 p-8 rounded-2xl shadow-2xl">
+                <div className="relative">
+                    <Skeleton circle width={160} height={160} className="border-4 border-white/10 shadow-lg" />
+                </div>
+
+                <div className="flex-1 w-full text-center sm:text-left">
+                    <h1 className="mb-4">
+                        <Skeleton width={200} height={40} />
+                    </h1>
+
+                    <p className="opacity-90 max-w-2xl">
+                        <Skeleton count={3} />
+                    </p>
+                </div>
+            </div>
         </SkeletonTheme>
     );
 }

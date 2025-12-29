@@ -3,23 +3,30 @@ import { BsDiscord, BsGithub, BsInstagram } from "react-icons/bs";
 
 function Profile({ profile }) {
   return (
-    <div data-aos="fade">
-      <div className="flex-auto sm:gap-4 sm:flex">
-        <img
-          src={profile.avatar}
-          alt="Avatar"
-          className="rounded mx-auto sm:mx-0 mb-4 sm:mb-0 w-52 h-52"
-        />
+    <div data-aos="fade-up" className="relative group">
+      <div className="absolute -inset-1 bg-gradient-to-r from-gray-700 to-slate-600 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
+      <div className="relative flex flex-col sm:flex-row items-center sm:items-start gap-8 bg-secondary/20 backdrop-blur-md border border-white/5 p-8 rounded-2xl shadow-xl">
+        <div className="relative">
+          <div className="absolute inset-0 bg-gray-500 rounded-full blur-md opacity-30"></div>
+          <img
+            src={profile.avatar}
+            alt="Avatar"
+            className="relative rounded-full mx-auto sm:mx-0 w-40 h-40 object-cover border-4 border-white/5 shadow-lg transform transition duration-500 hover:scale-105 filter grayscale hover:grayscale-0"
+          />
+        </div>
 
-        <span>
-          <h1 className="text-4xl font-bold leading-tight text-center sm:text-left">
+        <div className="flex-1 text-center sm:text-left">
+          <h1 className="text-5xl font-bold text-white mb-4 tracking-tight">
             {profile.username}
           </h1>
 
-          <p className="opacity-75 mx-auto sm:mx-0 text-center sm:text-left sm:w-3/4 break-all">
+          <p className="text-gray-400 text-lg leading-relaxed font-light max-w-2xl">
             {profile.description}
           </p>
-        </span>
+
+          <div className="mt-6 flex justify-center sm:justify-start gap-4">
+           </div>
+        </div>
       </div>
     </div>
   );
